@@ -1,0 +1,174 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-image: url(./images/windblue.jpg);
+    background-repeat:no-repeat;
+    background-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(107, 106, 104);
+}
+.wholeBody{
+    display: flex;
+    justify-content: row;
+    justify-content: space-between;
+}
+.mainTime{
+   display: flex;
+   padding: 30px 30px 0px 30px;
+   flex-direction: column;
+   margin-left: 50px;
+   margin-top: 50px;
+}
+.timeAndDate{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-size: 60px;
+}
+.date{
+    font-size: 20px;
+}
+.wrapper{
+ display: flex;
+ margin-right: 200px;
+ margin-top: 100px;
+}
+.wrapperRight{
+    display: flex;
+    justify-content: center;
+}
+.mainSection{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    background-color: rgba(205, 200, 200, 0.5);
+    border-radius: 30px;
+    width: 700px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.myTasksHeader{
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    color:rgb(107, 106, 104);
+    font-size: large;
+    margin-top: -10px;
+}
+.inputAndAddBtn{
+    margin-right: auto;
+    margin-left: 13px;
+    display: flex;
+    justify-content: left;
+    padding:10px;
+    width: 100%;
+}
+.inputAndAddBtn input {
+    width: 40%;
+}
+.addBtn{
+    margin-left: 10px;
+    color: rgba(245, 243, 240, 0.8);
+    background-color: rgb(72, 71, 71);
+    padding: 10px;
+    width: 20%;
+    text-align: center;
+    border-radius: 8px;
+}
+.addBtn:hover{  
+    color: rgb(250, 235, 215);
+    background-color: rgba(108, 106, 106, 0.5);
+}
+input{
+    background-color: rgba(245, 243, 240, 0.8);
+    color: rgb(72, 71, 71);
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+}
+.taskList{
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.task{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(245, 243, 240, 0.8);
+   color: rgb(72, 71, 71);
+   border-radius: 10px;
+   width: 80%;
+   box-sizing: border-box;
+   margin: 10px;
+}
+.divP{
+     display: flex;
+     box-sizing: border-box;
+     flex-wrap: wrap;
+     flex-direction: row;
+     margin-left: 10px;
+}
+.completed{
+   background-color: rgb(136, 161, 201, 0.5);
+   color: white;
+}
+.btnNotDoneAndAll{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;  
+}
+.btnNotDoneAndAll .notDone{
+    background-color: rgba(245, 243, 240, 0.8);
+    color: rgb(72, 71, 71);
+    padding: 10px;
+    border-radius: 8px;
+    width: 45%;
+    text-align: center;
+}
+.btnNotDoneAndAll .notDone:hover{  
+    color: rgba(245, 243, 240, 0.8);
+    background-color: rgb(72, 71, 71);
+}
+.btnNotDoneAndAll .allTasks{
+    background-color: rgba(245, 243, 240, 0.8);
+    color: rgb(72, 71, 71);
+    padding: 10px;
+    border-radius: 8px;
+    width: 45%;
+    text-align: center;
+}
+.btnNotDoneAndAll .allTasks:hover{  
+    color: rgba(245, 243, 240, 0.8);
+    background-color: rgb(72, 71, 71);
+}
+table{
+    border-collapse: collapse;
+   margin-top: 20px;
+}
+td,
+th{
+    border: 1px solid rgb(72, 71, 71);
+    padding: 6px;
+    text-align: center;
+    font-size: 14px;
+    color:  rgb(72, 71, 71); 
+    border: 1px solid rgba(245, 243, 240, 0.8);
+}
+th{
+    font-weight: bold;
+    background-color:rgba(245, 243, 240, 0.8);
+}
